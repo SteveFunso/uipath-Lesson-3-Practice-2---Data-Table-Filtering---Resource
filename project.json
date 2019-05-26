@@ -1,0 +1,44 @@
+{
+  "name": "TestProcess",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.UIAutomation.Activities": "[18.3.6864.20582]",
+    "UiPath.System.Activities": "[18.3.6864.20561]",
+    "UiPath.Excel.Activities": "[2.4.6863.30657]",
+    "UiPath.Mail.Activities": "[1.2.6863.29868]",
+    "UiPath.PDF.Activities": "[1.2.6863.34697]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "18.3.1.0",
+  "projectVersion": "1.0.6921.22711",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "Colour",
+        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": true
+      },
+      {
+        "name": "duration",
+        "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": true
+      }
+    ],
+    "output": []
+  }
+}
